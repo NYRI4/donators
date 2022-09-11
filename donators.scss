@@ -187,6 +187,49 @@
     }
 }
 
+// Badges in chat
+.avatar-2e8lTP[src*="193188089756123136"],
+.avatar-2e8lTP[src*="596812194906374167"],
+.avatar-2e8lTP[src*="281376608038813696"],
+.avatar-2e8lTP[src*="269939624401436672"],
+.avatar-2e8lTP[src*="272440514400354305"],
+.avatar-2e8lTP[src*="409639495030538250"],
+.avatar-2e8lTP[src*="303880582331629569"],
+.avatar-2e8lTP[src*="562386647828791311"],
+.avatar-2e8lTP[src*="442661470770167838"],
+.avatar-2e8lTP[src*="394804652064899072"],
+.avatar-2e8lTP[src*="148883925270396929"],
+.avatar-2e8lTP[src*="233787027517210624"],
+.avatar-2e8lTP[src*="751092600890458203"],
+.avatar-2e8lTP[src*="289782983357890571"],
+.avatar-2e8lTP[src*="478881945020006402"],
+.avatar-2e8lTP[src*="118830296350064641"],
+.avatar-2e8lTP[src*="421890156686213120"],
+.avatar-2e8lTP[src*="285902386701271050"],
+.avatar-2e8lTP[src*="429013973501870100"],
+.avatar-2e8lTP[src*="17274395410169856"],
+.avatar-2e8lTP[src*="516246121002303489"],
+.avatar-2e8lTP[src*="705306248538488947"],
+.avatar-2e8lTP[src*="717509908479868999"],
+.avatar-2e8lTP[src*="522953162748067840"],
+.avatar-2e8lTP[src*="936723624180727888"],
+.avatar-2e8lTP[src*="444254890563338241"],
+.avatar-2e8lTP[src*="188323207793606656"] {
+
+    & + h2 {
+        .username-h_Y3Us::after {
+            content: ""; position: absolute;
+            width: 18px; height: 14px;
+            bottom: 2px; right: -26px;
+            background: url("https://cdn.discordapp.com/emojis/813060332704366642.png?v=1") no-repeat;
+            background-size: 100%;
+            border-radius: 0 5px 0 0;
+            pointer-events: none;
+        }
+        .timestamp-p1Df1m { margin-left: 30px;}
+    }
+}
+
 // -- Animated gradient username --
 
 @mixin gradientUsername {
