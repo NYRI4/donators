@@ -81,7 +81,10 @@
     .avatarWrapper-eenWra[data-user-id="444254890563338241"],
 
     // NomadNaomie#7601
-    .avatarWrapper-eenWra[data-user-id="188323207793606656"]
+    .avatarWrapper-eenWra[data-user-id="188323207793606656"],
+
+    // vic#2345
+    .avatarWrapper-eenWra[data-user-id="833806840257052753"]
 
     {
         & + div > .profileBadges-2pItdR::before {
@@ -174,7 +177,10 @@
     &[data-user-id="444254890563338241"]::before,
 
     // NomadNaomie#7601
-    &[data-user-id="188323207793606656"]::before
+    &[data-user-id="188323207793606656"]::before,
+
+    // vic#2345
+    [data-user-id="833806840257052753"]::before
     {
         content: ""; position: absolute;
         width: 18px; height: 14px;
@@ -214,7 +220,8 @@
 .avatar-2e8lTP[src*="522953162748067840"],
 .avatar-2e8lTP[src*="936723624180727888"],
 .avatar-2e8lTP[src*="444254890563338241"],
-.avatar-2e8lTP[src*="188323207793606656"] {
+.avatar-2e8lTP[src*="188323207793606656"],
+.avatar-2e8lTP[src*="833806840257052753"] {
 
     & + h2 {
         .username-h_Y3Us::after {
@@ -555,6 +562,18 @@
     @include gradientUsername;
     animation: shine-reversed 5s linear infinite;
     background-image: linear-gradient(90deg, rgba(216,44,1,1) 0%, rgba(241,117,44,1) 15%, rgba(255,152,91,1) 30%, rgba(255,255,255,1) 45%, rgba(209,98,163,1) 60%, rgba(183,85,145,1) 75%, rgba(166,2,96,1) 90%);
+}
+
+// vic#2345
+.avatar-2e8lTP[src*="833806840257052753"] + h2 .username-h_Y3Us,
+.channel-1Shao0[data-user-id="833806840257052753"] .overflow-1wOqNV,
+.member-2gU6Ar[data-user-id="833806840257052753"] .username-i5-wv- > span,
+.userPopout-2j1gM4[data-user-id="833806840257052753"] ~ .nameTag-2Nlmsy .username-3JLfHz,
+.banner-1YaD3N[style*="833806840257052753"] ~ .nameTag-2Nlmsy .username-3JLfHz
+{
+    @include gradientUsername;
+    animation: shine 5s linear infinite;
+    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(61,122,234,1) 35%, rgba(81,164,165,1) 100%);
 }
 
 // Keyframes
