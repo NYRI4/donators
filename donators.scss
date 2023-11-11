@@ -8,38 +8,139 @@
 
 // -- Badges --
 
+// In member list (thx olie)
+.avatar__6337f:has(img[src*="193188089756123136"])
+  ~ .content_a6999d
+  .username__11d8c::after,
+.avatar__6337f:has(img[src*="596812194906374167"])
+  ~ .content_a6999d
+  .username__11d8c::after,
+.avatar__6337f:has(img[src*="281376608038813696"])
+  ~ .content_a6999d
+  .username__11d8c::after,
+.avatar__6337f:has(img[src*="269939624401436672"])
+  ~ .content_a6999d
+  .username__11d8c::after,
+.avatar__6337f:has(img[src*="272440514400354305"])
+  ~ .content_a6999d
+  .username__11d8c::after,
+.avatar__6337f:has(img[src*="409639495030538250"])
+  ~ .content_a6999d
+  .username__11d8c::after,
+.avatar__6337f:has(img[src*="303880582331629569"])
+  ~ .content_a6999d
+  .username__11d8c::after,
+.avatar__6337f:has(img[src*="562386647828791311"])
+  ~ .content_a6999d
+  .username__11d8c::after,
+.avatar__6337f:has(img[src*="442661470770167838"])
+  ~ .content_a6999d
+  .username__11d8c::after,
+.avatar__6337f:has(img[src*="394804652064899072"])
+  ~ .content_a6999d
+  .username__11d8c::after,
+.avatar__6337f:has(img[src*="148883925270396929"])
+  ~ .content_a6999d
+  .username__11d8c::after,
+.avatar__6337f:has(img[src*="233787027517210624"])
+  ~ .content_a6999d
+  .username__11d8c::after,
+.avatar__6337f:has(img[src*="751092600890458203"])
+  ~ .content_a6999d
+  .username__11d8c::after,
+.avatar__6337f:has(img[src*="289782983357890571"])
+  ~ .content_a6999d
+  .username__11d8c::after,
+.avatar__6337f:has(img[src*="478881945020006402"])
+  ~ .content_a6999d
+  .username__11d8c::after,
+.avatar__6337f:has(img[src*="118830296350064641"])
+  ~ .content_a6999d
+  .username__11d8c::after,
+.avatar__6337f:has(img[src*="421890156686213120"])
+  ~ .content_a6999d
+  .username__11d8c::after,
+.avatar__6337f:has(img[src*="285902386701271050"])
+  ~ .content_a6999d
+  .username__11d8c::after,
+.avatar__6337f:has(img[src*="429013973501870100"])
+  ~ .content_a6999d
+  .username__11d8c::after,
+.avatar__6337f:has(img[src*="17274395410169856"])
+  ~ .content_a6999d
+  .username__11d8c::after,
+.avatar__6337f:has(img[src*="516246121002303489"])
+  ~ .content_a6999d
+  .username__11d8c::after,
+.avatar__6337f:has(img[src*="705306248538488947"])
+  ~ .content_a6999d
+  .username__11d8c::after,
+.avatar__6337f:has(img[src*="522953162748067840"])
+  ~ .content_a6999d
+  .username__11d8c::after,
+.avatar__6337f:has(img[src*="936723624180727888"])
+  ~ .content_a6999d
+  .username__11d8c::after,
+.avatar__6337f:has(img[src*="444254890563338241"])
+  ~ .content_a6999d
+  .username__11d8c::after,
+.avatar__6337f:has(img[src*="188323207793606656"])
+  ~ .content_a6999d
+  .username__11d8c::after,
+.avatar__6337f:has(img[src*="833806840257052753"])
+  ~ .content_a6999d
+  .username__11d8c::after,
+.avatar__6337f:has(img[src*="349133614849458177"])
+  ~ .content_a6999d
+  .username__11d8c::after,
+.avatar__6337f:has(img[src*="486463991586095104"])
+  ~ .content_a6999d
+  .username__11d8c::after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 14px;
+  bottom: 5px;
+  left: 0;
+  background: url("https://cdn.discordapp.com/emojis/813060332704366642.png?v=1")
+    no-repeat;
+  background-size: 100%;
+  border-radius: 0 5px 0 0;
+  pointer-events: none;
+}
+
 // In chat
-.avatar-2e8lTP[src*="193188089756123136"],
-.avatar-2e8lTP[src*="596812194906374167"],
-.avatar-2e8lTP[src*="281376608038813696"],
-.avatar-2e8lTP[src*="269939624401436672"],
-.avatar-2e8lTP[src*="272440514400354305"],
-.avatar-2e8lTP[src*="409639495030538250"],
-.avatar-2e8lTP[src*="303880582331629569"],
-.avatar-2e8lTP[src*="562386647828791311"],
-.avatar-2e8lTP[src*="442661470770167838"],
-.avatar-2e8lTP[src*="394804652064899072"],
-.avatar-2e8lTP[src*="148883925270396929"],
-.avatar-2e8lTP[src*="233787027517210624"],
-.avatar-2e8lTP[src*="751092600890458203"],
-.avatar-2e8lTP[src*="289782983357890571"],
-.avatar-2e8lTP[src*="478881945020006402"],
-.avatar-2e8lTP[src*="118830296350064641"],
-.avatar-2e8lTP[src*="421890156686213120"],
-.avatar-2e8lTP[src*="285902386701271050"],
-.avatar-2e8lTP[src*="429013973501870100"],
-.avatar-2e8lTP[src*="17274395410169856"],
-.avatar-2e8lTP[src*="516246121002303489"],
-.avatar-2e8lTP[src*="705306248538488947"],
-.avatar-2e8lTP[src*="522953162748067840"],
-.avatar-2e8lTP[src*="936723624180727888"],
-.avatar-2e8lTP[src*="444254890563338241"],
-.avatar-2e8lTP[src*="188323207793606656"],
-.avatar-2e8lTP[src*="833806840257052753"],
-.avatar-2e8lTP[src*="349133614849458177"],
-.avatar-2e8lTP[src*="486463991586095104"] {
+.avatar__08316[src*="193188089756123136"],
+.avatar__08316[src*="596812194906374167"],
+.avatar__08316[src*="281376608038813696"],
+.avatar__08316[src*="269939624401436672"],
+.avatar__08316[src*="272440514400354305"],
+.avatar__08316[src*="409639495030538250"],
+.avatar__08316[src*="303880582331629569"],
+.avatar__08316[src*="562386647828791311"],
+.avatar__08316[src*="442661470770167838"],
+.avatar__08316[src*="394804652064899072"],
+.avatar__08316[src*="148883925270396929"],
+.avatar__08316[src*="233787027517210624"],
+.avatar__08316[src*="751092600890458203"],
+.avatar__08316[src*="289782983357890571"],
+.avatar__08316[src*="478881945020006402"],
+.avatar__08316[src*="118830296350064641"],
+.avatar__08316[src*="421890156686213120"],
+.avatar__08316[src*="285902386701271050"],
+.avatar__08316[src*="429013973501870100"],
+.avatar__08316[src*="17274395410169856"],
+.avatar__08316[src*="516246121002303489"],
+.avatar__08316[src*="705306248538488947"],
+.avatar__08316[src*="522953162748067840"],
+.avatar__08316[src*="936723624180727888"],
+.avatar__08316[src*="444254890563338241"],
+.avatar__08316[src*="188323207793606656"],
+.avatar__08316[src*="833806840257052753"],
+.avatar__08316[src*="349133614849458177"],
+.avatar__08316[src*="486463991586095104"] {
   & + h3 {
-    .username-h_Y3Us::after {
+    .username_d30d99::after {
       content: "";
       position: absolute;
       width: 18px;
@@ -52,7 +153,7 @@
       border-radius: 0 5px 0 0;
       pointer-events: none;
     }
-    .timestamp-p1Df1m {
+    .timestamp_cdbd93 {
       margin-left: 30px;
     }
   }
@@ -68,7 +169,7 @@
 }
 
 // PANIC#6666
-.avatar-2e8lTP[src*="193188089756123136"] + h3 .username-h_Y3Us {
+.avatar__08316[src*="193188089756123136"] + h3 .username_d30d99 {
   @include gradientUsername;
   animation: shine 10s linear infinite;
   background-image: linear-gradient(
@@ -80,7 +181,7 @@
 }
 
 // Noteless#0666
-.avatar-2e8lTP[src*="281376608038813696"] + h3 .username-h_Y3Us {
+.avatar__08316[src*="281376608038813696"] + h3 .username_d30d99 {
   @include gradientUsername;
   animation: shine 10s linear infinite;
   background-image: linear-gradient(
@@ -92,7 +193,7 @@
 }
 
 // Qvas#7777
-.avatar-2e8lTP[src*="596812194906374167"] + h3 .username-h_Y3Us {
+.avatar__08316[src*="596812194906374167"] + h3 .username_d30d99 {
   @include gradientUsername;
   animation: shine 10s linear infinite;
   background-image: linear-gradient(
@@ -104,7 +205,7 @@
 }
 
 // Josh#3577
-.avatar-2e8lTP[src*="269939624401436672"] + h3 .username-h_Y3Us {
+.avatar__08316[src*="269939624401436672"] + h3 .username_d30d99 {
   @include gradientUsername;
   animation: shine 10s linear infinite;
   background-image: linear-gradient(
@@ -120,7 +221,7 @@
 }
 
 // Rabbite#6969
-.avatar-2e8lTP[src*="272440514400354305"] + h3 .username-h_Y3Us {
+.avatar__08316[src*="272440514400354305"] + h3 .username_d30d99 {
   @include gradientUsername;
   animation: shine 10s linear infinite;
   background-image: linear-gradient(
@@ -140,10 +241,10 @@
 }
 
 // bolo#0199
-.avatar-2e8lTP[src*="409639495030538250"] + h3 .username-h_Y3Us,
+.avatar__08316[src*="409639495030538250"] + h3 .username_d30d99,
 
 // zbbVII#0547
-.avatar-2e8lTP[src*="303880582331629569"] + h3 .username-h_Y3Us {
+.avatar__08316[src*="303880582331629569"] + h3 .username_d30d99 {
   @include gradientUsername;
   animation: shine 10s linear infinite;
   background-image: linear-gradient(
@@ -160,7 +261,7 @@
 }
 
 // Reaper45#0001
-.avatar-2e8lTP[src*="562386647828791311"] + h3 .username-h_Y3Us {
+.avatar__08316[src*="562386647828791311"] + h3 .username_d30d99 {
   @include gradientUsername;
   animation: shine 10s linear infinite;
   background-image: linear-gradient(
@@ -173,7 +274,7 @@
 }
 
 // SkeppyCat#1185
-.avatar-2e8lTP[src*="442661470770167838"] + h3 .username-h_Y3Us {
+.avatar__08316[src*="442661470770167838"] + h3 .username_d30d99 {
   @include gradientUsername;
   animation: shine 10s linear infinite;
   background-image: linear-gradient(
@@ -185,7 +286,7 @@
 }
 
 // LewsTherin#0001
-.avatar-2e8lTP[src*="148883925270396929"] + h3 .username-h_Y3Us {
+.avatar__08316[src*="148883925270396929"] + h3 .username_d30d99 {
   @include gradientUsername;
   animation: shine 10s linear infinite;
   background-image: linear-gradient(
@@ -199,7 +300,7 @@
 }
 
 // D |049| CatBoy#0049
-.avatar-2e8lTP[src*="394804652064899072"] + h3 .username-h_Y3Us {
+.avatar__08316[src*="394804652064899072"] + h3 .username_d30d99 {
   @include gradientUsername;
   animation: shine 10s linear infinite;
   background-image: radial-gradient(
@@ -214,7 +315,7 @@
 }
 
 // AnnoyedLoki#0117
-.avatar-2e8lTP[src*="233787027517210624"] + h3 .username-h_Y3Us {
+.avatar__08316[src*="233787027517210624"] + h3 .username_d30d99 {
   @include gradientUsername;
   animation: shine 10s linear infinite;
   background-image: linear-gradient(
@@ -226,7 +327,7 @@
 }
 
 // Pukima#0001
-.avatar-2e8lTP[src*="751092600890458203"] + h3 .username-h_Y3Us {
+.avatar__08316[src*="751092600890458203"] + h3 .username_d30d99 {
   @include gradientUsername;
   animation: shine-reversed 10s linear infinite;
   background-image: linear-gradient(
@@ -238,7 +339,7 @@
 }
 
 // Chochu#1253
-.avatar-2e8lTP[src*="289782983357890571"] + h3 .username-h_Y3Us {
+.avatar__08316[src*="289782983357890571"] + h3 .username_d30d99 {
   @include gradientUsername;
   animation: shine-reversed 10s linear infinite;
   background-image: linear-gradient(
@@ -251,7 +352,7 @@
 }
 
 // ♡Okajuni♡ [BC]
-.avatar-2e8lTP[src*="478881945020006402"] + h3 .username-h_Y3Us {
+.avatar__08316[src*="478881945020006402"] + h3 .username_d30d99 {
   @include gradientUsername;
   animation: shine-reversed 10s linear infinite;
   background-image: linear-gradient(
@@ -264,7 +365,7 @@
 }
 
 // Kaia#8444
-.avatar-2e8lTP[src*="118830296350064641"] + h3 .username-h_Y3Us {
+.avatar__08316[src*="118830296350064641"] + h3 .username_d30d99 {
   @include gradientUsername;
   animation: shine 10s linear infinite;
   background-image: linear-gradient(
@@ -278,7 +379,7 @@
 }
 
 // Maclean#8719
-.avatar-2e8lTP[src*="421890156686213120"] + h3 .username-h_Y3Us {
+.avatar__08316[src*="421890156686213120"] + h3 .username_d30d99 {
   @include gradientUsername;
   animation: shine 10s linear infinite;
   background-image: linear-gradient(
@@ -293,7 +394,7 @@
 }
 
 // Cituation#0069
-.avatar-2e8lTP[src*="285902386701271050"] + h3 .username-h_Y3Us {
+.avatar__08316[src*="285902386701271050"] + h3 .username_d30d99 {
   @include gradientUsername;
   animation: shine-reversed 5s linear infinite;
   background-image: linear-gradient(
@@ -313,7 +414,7 @@
 }
 
 // ven#0069
-.avatar-2e8lTP[src*="429013973501870100"] + h3 .username-h_Y3Us {
+.avatar__08316[src*="429013973501870100"] + h3 .username_d30d99 {
   @include gradientUsername;
   animation: shine-reversed 5s linear infinite;
   background-image: linear-gradient(
@@ -330,14 +431,14 @@
 }
 
 // Dxniel#2772
-.avatar-2e8lTP[src*="317274395410169856"] + h3 .username-h_Y3Us {
+.avatar__08316[src*="317274395410169856"] + h3 .username_d30d99 {
   @include gradientUsername;
   animation: shine-reversed 5s linear infinite;
   background-image: linear-gradient(90deg, #fc00ff 0%, #00dbde 100%);
 }
 
 // J6lka#4160
-.avatar-2e8lTP[src*="516246121002303489"] + h3 .username-h_Y3Us {
+.avatar__08316[src*="516246121002303489"] + h3 .username_d30d99 {
   @include gradientUsername;
   animation: shine-reversed 5s linear infinite;
   background-image: linear-gradient(
@@ -349,7 +450,7 @@
 }
 
 // Dark-LYNN#6568
-.avatar-2e8lTP[src*="705306248538488947"] + h3 .username-h_Y3Us {
+.avatar__08316[src*="705306248538488947"] + h3 .username_d30d99 {
   @include gradientUsername;
   animation: shine-reversed 5s linear infinite;
   background-image: linear-gradient(
@@ -365,7 +466,7 @@
 }
 
 // 💙dopadream💛#7777
-.avatar-2e8lTP[src*="717509908479868999"] + h3 .username-h_Y3Us {
+.avatar__08316[src*="717509908479868999"] + h3 .username_d30d99 {
   @include gradientUsername;
   animation: shine-reversed 5s linear infinite;
   background-image: radial-gradient(
@@ -376,7 +477,7 @@
 }
 
 // Cywell#0001
-.avatar-2e8lTP[src*="522953162748067840"] + h3 .username-h_Y3Us {
+.avatar__08316[src*="522953162748067840"] + h3 .username_d30d99 {
   @include gradientUsername;
   animation: shine 5s linear infinite;
   background-image: linear-gradient(
@@ -388,7 +489,7 @@
 }
 
 // waasabii#0112
-.avatar-2e8lTP[src*="936723624180727888"] + h3 .username-h_Y3Us {
+.avatar__08316[src*="936723624180727888"] + h3 .username_d30d99 {
   @include gradientUsername;
   animation: shine-reversed 5s linear infinite;
   background-image: linear-gradient(
@@ -402,7 +503,7 @@
 }
 
 // LoafOfCurry#0001
-.avatar-2e8lTP[src*="444254890563338241"] + h3 .username-h_Y3Us {
+.avatar__08316[src*="444254890563338241"] + h3 .username_d30d99 {
   @include gradientUsername;
   animation: shine-reversed 5s linear infinite;
   background-image: linear-gradient(
@@ -417,7 +518,7 @@
 }
 
 // NomadNaomie#7601
-.avatar-2e8lTP[src*="188323207793606656"] + h3 .username-h_Y3Us {
+.avatar__08316[src*="188323207793606656"] + h3 .username_d30d99 {
   @include gradientUsername;
   animation: shine-reversed 5s linear infinite;
   background-image: linear-gradient(
@@ -433,7 +534,7 @@
 }
 
 // vic#2345
-.avatar-2e8lTP[src*="833806840257052753"] + h3 .username-h_Y3Us {
+.avatar__08316[src*="833806840257052753"] + h3 .username_d30d99 {
   @include gradientUsername;
   animation: shine 5s linear infinite;
   background-image: linear-gradient(
@@ -445,10 +546,14 @@
 }
 
 // vic#2345
-.avatar-2e8lTP[src*="486463991586095104"] + h3 .username-h_Y3Us {
+.avatar__08316[src*="486463991586095104"] + h3 .username_d30d99 {
   @include gradientUsername;
   animation: shine 5s linear infinite;
-  background-image: linear-gradient(90deg, rgba(182,100,255,1) 0%, rgba(170,255,203,1) 100%);
+  background-image: linear-gradient(
+    90deg,
+    rgba(182, 100, 255, 1) 0%,
+    rgba(170, 255, 203, 1) 100%
+  );
 }
 
 // Keyframes
