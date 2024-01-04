@@ -1,6 +1,6 @@
 /**
  * @name Donators
- * @author A user#8169, Nyria#3863
+ * @author Nyria#3863
  * @description A new look to discord
  * @invite rtBQX5D3bD
  * @version 2.3.0
@@ -35,7 +35,8 @@
 .avatar__6337f:has(img[src*="833806840257052753"]) ~ .content_a6999d .username__11d8c::after,
 .avatar__6337f:has(img[src*="349133614849458177"]) ~ .content_a6999d .username__11d8c::after,
 .avatar__6337f:has(img[src*="486463991586095104"]) ~ .content_a6999d .username__11d8c::after,
-.avatar__6337f:has(img[src*="471112338099929100"]) ~ .content_a6999d .username__11d8c::after {
+.avatar__6337f:has(img[src*="471112338099929100"]) ~ .content_a6999d .username__11d8c::after,
+.avatar__6337f:has(img[src*="226408609410449409"]) ~ .content_a6999d .username__11d8c::after {
   content: "";
   position: absolute;
   width: 15px;
@@ -77,7 +78,8 @@
 .avatarWrapper_f77579:has(img[src*="833806840257052753"]) ~ div.profileBadges__7a7cb,
 .avatarWrapper_f77579:has(img[src*="349133614849458177"]) ~ div.profileBadges__7a7cb,
 .avatarWrapper_f77579:has(img[src*="486463991586095104"]) ~ div.profileBadges__7a7cb,
-.avatarWrapper_f77579:has(img[src*="471112338099929100"]) ~ div.profileBadges__7a7cb {
+.avatarWrapper_f77579:has(img[src*="471112338099929100"]) ~ div.profileBadges__7a7cb,
+.avatarWrapper_f77579:has(img[src*="226408609410449409"]) ~ div.profileBadges__7a7cb {
   padding-right: 40px;
 }
 .avatarWrapper_f77579:has(img[src*="193188089756123136"]) .avatarWrapper_f77579:has(img[src*="596812194906374167"]) ~ div.profileBadges__7a7cb > :last-child,
@@ -109,7 +111,8 @@
 .avatarWrapper_f77579:has(img[src*="833806840257052753"]) ~ div.profileBadges__7a7cb > :last-child,
 .avatarWrapper_f77579:has(img[src*="349133614849458177"]) ~ div.profileBadges__7a7cb > :last-child,
 .avatarWrapper_f77579:has(img[src*="486463991586095104"]) ~ div.profileBadges__7a7cb > :last-child,
-.avatarWrapper_f77579:has(img[src*="471112338099929100"]) ~ div.profileBadges__7a7cb > :last-child {
+.avatarWrapper_f77579:has(img[src*="471112338099929100"]) ~ div.profileBadges__7a7cb > :last-child,
+.avatarWrapper_f77579:has(img[src*="226408609410449409"]) ~ div.profileBadges__7a7cb > :last-child {
   position: relative;
 }
 .avatarWrapper_f77579:has(img[src*="193188089756123136"]) .avatarWrapper_f77579:has(img[src*="596812194906374167"]) ~ div.profileBadges__7a7cb > :last-child::after,
@@ -141,7 +144,8 @@
 .avatarWrapper_f77579:has(img[src*="833806840257052753"]) ~ div.profileBadges__7a7cb > :last-child::after,
 .avatarWrapper_f77579:has(img[src*="349133614849458177"]) ~ div.profileBadges__7a7cb > :last-child::after,
 .avatarWrapper_f77579:has(img[src*="486463991586095104"]) ~ div.profileBadges__7a7cb > :last-child::after,
-.avatarWrapper_f77579:has(img[src*="471112338099929100"]) ~ div.profileBadges__7a7cb > :last-child::after {
+.avatarWrapper_f77579:has(img[src*="471112338099929100"]) ~ div.profileBadges__7a7cb > :last-child::after,
+.avatarWrapper_f77579:has(img[src*="226408609410449409"]) ~ div.profileBadges__7a7cb > :last-child::after {
   content: "";
   position: absolute;
   width: 22px;
@@ -181,7 +185,8 @@
 .avatarWrapper_f77579:has(img[src*="833806840257052753"]) ~ div.profileBadges__7a7cb > :last-child:hover::before,
 .avatarWrapper_f77579:has(img[src*="349133614849458177"]) ~ div.profileBadges__7a7cb > :last-child:hover::before,
 .avatarWrapper_f77579:has(img[src*="486463991586095104"]) ~ div.profileBadges__7a7cb > :last-child:hover::before,
-.avatarWrapper_f77579:has(img[src*="471112338099929100"]) ~ div.profileBadges__7a7cb > :last-child:hover::before {
+.avatarWrapper_f77579:has(img[src*="471112338099929100"]) ~ div.profileBadges__7a7cb > :last-child:hover::before,
+.avatarWrapper_f77579:has(img[src*="226408609410449409"]) ~ div.profileBadges__7a7cb > :last-child:hover::before {
   content: "Nyria's donator";
   position: absolute;
   padding: 8px 8px 8px 36px;
@@ -227,7 +232,8 @@
 .header__7da4f:has(img[src*="833806840257052753"]) .headerTop__6628b > div.badgeList_c193e3,
 .header__7da4f:has(img[src*="349133614849458177"]) .headerTop__6628b > div.badgeList_c193e3,
 .header__7da4f:has(img[src*="486463991586095104"]) .headerTop__6628b > div.badgeList_c193e3,
-.header__7da4f:has(img[src*="471112338099929100"]) .headerTop__6628b > div.badgeList_c193e3 {
+.header__7da4f:has(img[src*="471112338099929100"]) .headerTop__6628b > div.badgeList_c193e3,
+.header__7da4f:has(img[src*="226408609410449409"]) .headerTop__6628b > div.badgeList_c193e3 {
   padding-right: 40px;
 }
 .header__7da4f:has(img[src*="193188089756123136"]) .headerTop__6628b > div.badgeList_c193e3 > :last-child,
@@ -260,7 +266,8 @@
 .header__7da4f:has(img[src*="833806840257052753"]) .headerTop__6628b > div.badgeList_c193e3 > :last-child,
 .header__7da4f:has(img[src*="349133614849458177"]) .headerTop__6628b > div.badgeList_c193e3 > :last-child,
 .header__7da4f:has(img[src*="486463991586095104"]) .headerTop__6628b > div.badgeList_c193e3 > :last-child,
-.header__7da4f:has(img[src*="471112338099929100"]) .headerTop__6628b > div.badgeList_c193e3 > :last-child {
+.header__7da4f:has(img[src*="471112338099929100"]) .headerTop__6628b > div.badgeList_c193e3 > :last-child,
+.header__7da4f:has(img[src*="226408609410449409"]) .headerTop__6628b > div.badgeList_c193e3 > :last-child {
   position: relative;
 }
 .header__7da4f:has(img[src*="193188089756123136"]) .headerTop__6628b > div.badgeList_c193e3 > :last-child::after,
@@ -293,7 +300,8 @@
 .header__7da4f:has(img[src*="833806840257052753"]) .headerTop__6628b > div.badgeList_c193e3 > :last-child::after,
 .header__7da4f:has(img[src*="349133614849458177"]) .headerTop__6628b > div.badgeList_c193e3 > :last-child::after,
 .header__7da4f:has(img[src*="486463991586095104"]) .headerTop__6628b > div.badgeList_c193e3 > :last-child::after,
-.header__7da4f:has(img[src*="471112338099929100"]) .headerTop__6628b > div.badgeList_c193e3 > :last-child::after {
+.header__7da4f:has(img[src*="471112338099929100"]) .headerTop__6628b > div.badgeList_c193e3 > :last-child::after,
+.header__7da4f:has(img[src*="226408609410449409"]) .headerTop__6628b > div.badgeList_c193e3 > :last-child::after {
   content: "";
   position: absolute;
   width: 22px;
@@ -334,7 +342,8 @@
 .header__7da4f:has(img[src*="833806840257052753"]) .headerTop__6628b > div.badgeList_c193e3 > :last-child:hover::before,
 .header__7da4f:has(img[src*="349133614849458177"]) .headerTop__6628b > div.badgeList_c193e3 > :last-child:hover::before,
 .header__7da4f:has(img[src*="486463991586095104"]) .headerTop__6628b > div.badgeList_c193e3 > :last-child:hover::before,
-.header__7da4f:has(img[src*="471112338099929100"]) .headerTop__6628b > div.badgeList_c193e3 > :last-child:hover::before {
+.header__7da4f:has(img[src*="471112338099929100"]) .headerTop__6628b > div.badgeList_c193e3 > :last-child:hover::before,
+.header__7da4f:has(img[src*="226408609410449409"]) .headerTop__6628b > div.badgeList_c193e3 > :last-child:hover::before {
   content: "Nyria's donator";
   position: absolute;
   padding: 8px 8px 8px 36px;
@@ -379,7 +388,8 @@
 .avatar__08316[src*="833806840257052753"] + h3 .username_d30d99::after,
 .avatar__08316[src*="349133614849458177"] + h3 .username_d30d99::after,
 .avatar__08316[src*="486463991586095104"] + h3 .username_d30d99::after,
-.avatar__08316[src*="471112338099929100"] + h3 .username_d30d99::after {
+.avatar__08316[src*="471112338099929100"] + h3 .username_d30d99::after,
+.avatar__08316[src*="226408609410449409"] + h3 .username_d30d99::after {
   content: "";
   position: absolute;
   width: 18px;
@@ -420,7 +430,8 @@
 .avatar__08316[src*="833806840257052753"] + h3 .hasBadges_aef1e9 .username_d30d99::after,
 .avatar__08316[src*="349133614849458177"] + h3 .hasBadges_aef1e9 .username_d30d99::after,
 .avatar__08316[src*="486463991586095104"] + h3 .hasBadges_aef1e9 .username_d30d99::after,
-.avatar__08316[src*="471112338099929100"] + h3 .hasBadges_aef1e9 .username_d30d99::after {
+.avatar__08316[src*="471112338099929100"] + h3 .hasBadges_aef1e9 .username_d30d99::after,
+.avatar__08316[src*="226408609410449409"] + h3 .hasBadges_aef1e9 .username_d30d99::after {
   right: -50px;
 }
 .avatar__08316[src*="193188089756123136"] + h3 .timestamp_cdbd93,
@@ -452,7 +463,8 @@
 .avatar__08316[src*="833806840257052753"] + h3 .timestamp_cdbd93,
 .avatar__08316[src*="349133614849458177"] + h3 .timestamp_cdbd93,
 .avatar__08316[src*="486463991586095104"] + h3 .timestamp_cdbd93,
-.avatar__08316[src*="471112338099929100"] + h3 .timestamp_cdbd93 {
+.avatar__08316[src*="471112338099929100"] + h3 .timestamp_cdbd93,
+.avatar__08316[src*="226408609410449409"] + h3 .timestamp_cdbd93 {
   margin-left: 30px;
 }
 
@@ -800,6 +812,18 @@
 .avatar__6337f:has(.avatar__991e2[src*="471112338099929100"]) + .content_a6999d .username_d272d6,
 .avatarWrapper_f77579:has(.avatar__991e2[src*="471112338099929100"]) ~ div.overlayBackground__86b78 .userText__3e8b7 > h1,
 .topSection_dfb73b:has(.avatar__991e2[src*="471112338099929100"]) ~ div.overlayBackground__86b78 .container_b6b15b > div:not(.pronouns_be950a) > div {
+  color: transparent !important;
+  font-weight: bold;
+  background-size: 300%;
+  -webkit-background-clip: text;
+  animation: shine 5s linear infinite;
+  background-image: linear-gradient(90deg, #6dd5ff 0%, #6daaff 33%, #2e6bc1 66%, #6dd5ff 100%);
+}
+
+.avatar__08316[src*="226408609410449409"] ~ h3 .username_d30d99,
+.avatar__6337f:has(.avatar__991e2[src*="226408609410449409"]) + .content_a6999d .username_d272d6,
+.avatarWrapper_f77579:has(.avatar__991e2[src*="226408609410449409"]) ~ div.overlayBackground__86b78 .userText__3e8b7 > h1,
+.topSection_dfb73b:has(.avatar__991e2[src*="226408609410449409"]) ~ div.overlayBackground__86b78 .container_b6b15b > div:not(.pronouns_be950a) > div {
   color: transparent !important;
   font-weight: bold;
   background-size: 300%;
