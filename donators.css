@@ -829,7 +829,7 @@
   background-size: 300%;
   -webkit-background-clip: text;
   animation: shine 5s linear infinite;
-  background-image: linear-gradient(90deg, #6dd5ff 0%, #6daaff 33%, #2e6bc1 66%, #6dd5ff 100%);
+  background-image: linear-gradient(270deg, rgb(121, 0, 168) 33%, rgb(1, 51, 148) 66%, rgb(121, 0, 168) 100%);
 }
 
 @keyframes shine {

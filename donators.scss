@@ -762,13 +762,7 @@
 .topSection_dfb73b:has(.avatar__991e2[src*="226408609410449409"]) ~ div.overlayBackground__86b78 .container_b6b15b > div:not(.pronouns_be950a) > div {
   @include gradientUsername;
   animation: shine 5s linear infinite;
-  background-image: linear-gradient(
-    90deg,
-    #6dd5ff 0%,
-    #6daaff 33%,
-    #2e6bc1 66%,
-    #6dd5ff 100%
-  );
+  background-image: linear-gradient(270deg, rgba(121,0,168,1) 33%, rgba(1,51,148,1) 66%, rgba(121,0,168,1) 100%);
 }
 
 
